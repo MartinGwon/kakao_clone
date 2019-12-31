@@ -1,0 +1,38 @@
+.nav {
+  background-color: #fcfcfc;
+  opacity: 0.8;
+  position: fixed;
+  padding: 20px 50px;
+  bottom: 0px;
+  width: 100%;
+  border-top: solid 1px #f7f7f7;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav i {
+  font-size: 25px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -15px;
+  right: -8px;
+  color: white;
+  background-color: #e74c3c;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* height의 반을 주면 원형, 덜 주면 둥그스름한 네모.*/
+}

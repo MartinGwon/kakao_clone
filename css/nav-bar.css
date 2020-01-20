@@ -36,3 +36,18 @@
   align-items: center;
   border-radius: 50%; /* height의 반을 주면 원형, 덜 주면 둥그스름한 네모.*/
 }
+
+@keyframes showNav {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNav 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
